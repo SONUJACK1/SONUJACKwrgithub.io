@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Description</title>
+  <style>
+    /* Basic Styling */
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 15px;
+      display: flex;
+    }
+
+    /* Product Container */
+    .product-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 500px;
+    }
+
+    .product-image {
+      width: 40%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .product-info {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .product-title {
+      font-size: 36px;
+      font-weight: 300;
+      color: #43484D;
+      letter-spacing: -2px;
+    }
+
+    .product-description {
+      border-bottom: 1px solid #E1E8EE;
+      margin-bottom: 20px;
+    }
+
+    .product-description span {
+      font-size: 12px;
+      color: #358ED7;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .product-size,
+    .product-fabric,
+    .product-material {
+      font-size: 16px;
+      font-weight: 300;
+      color: #86939E;
+      line-height: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="product-container">
+      <div class="product-image">
+        <div class="product-image">
+            <img src="G:/CCDS/Code/resume/gta.jpg" alt="Product Image">
+          </div>
+          
+      <div class="product-info">
+        <div class="product-description">
+          <p>Size: <span class="product-size">Small, Medium, Large</span></p>
+          <p>Fabric: <span class="product-fabric">100% Cotton</span></p>
+          <p>Material: <span class="product-material">Organic Cotton</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
